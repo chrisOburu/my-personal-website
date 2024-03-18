@@ -364,8 +364,14 @@ form .btn2{
     color: #fff;
     cursor: pointer;
     width: fit-content;
+    transition: background 0.5s;
+
 }
 
+form .btn2:hover{
+    color: #4800ff;
+    background: #fff;
+}
 
 .copyright{
     width: 100%;
